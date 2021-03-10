@@ -1,0 +1,104 @@
+html {
+  position: relative;
+  min-height: 100%;
+}
+body {
+  text-align: center;
+}
+.main-header {
+  padding-bottom: 15%;
+  width: 100%;
+  background-size: cover;
+  background-image: url("../images/header.jpg");
+  background-attachment: fixed;
+  min-height: 300px;
+}
+/* ここから */
+ .main-header img {
+  display: block;
+  position: absolute;
+  top: 20%;
+  left:45%;
+  /* transform: translateY(-50%) translateX(-50%); */
+  width: 20%;
+}
+header {
+  background-color: #333333;
+  height: 50px;
+  font-size: 1.5rem;
+}
+header ul {
+  width: auto;
+  list-style: none;
+}
+header ul a {
+  color: #fff;
+  text-decoration: none;
+  padding: 15px;
+  display: block;
+}
+.left {
+  /* text-align: left; */
+  float: left;
+  font-size: 1rem;
+}
+.right {
+  /* text-align: right; */
+  float: right;
+  font-size: 1rem;
+}
+header li {
+  float: left;
+}
+header ul:after {
+}
+.achieve {
+  position: relative;
+  width: 300px;
+  /* height: 50px; */
+}
+/* ここまでがheader部分の実装 */
+/* .achieve-image {
+  width: 110px;
+  margin: 0; */
+/* main画像（白い「Achieve」の文字の画像）部分の実装 */
+}
+.about {
+/* About Achieve部分の実装 */
+}
+/* ここから */
+.function {
+  background-color: #C0C0C0;
+  height: 500px;
+  padding-top: 2%;
+}
+.clearfix::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+.function-images {
+}
+.function-image {
+  float: left;
+  padding-left: 12%;
+  padding-top: 8%;
+}
+/* ここまでがfunction部分の実装 */
+footer {
+  width:  100%;
+  height: 100px;
+  position: absolute;
+  bottom: 0;
+  background-color: #000033;
+  /* display: table; */
+  text-align: center;
+  /* footer部分の実装 */
+}
+footer p {
+  font-size: 1rem;
+  color: #fff;
+  vertical-align: middle;
+  /* display: table-cell; */
+}
+/* ここに書かれているcssの記述はあくまでヒントとして用意された雛形なので、書かれている記述に従わずに実装したいという場合は、自分の好きに実装して構わない。課題要件を満たし、コードの品質が一定の水準にあると判定されればどのような実装でも合格になる。 */
